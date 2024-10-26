@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #121212;
+    background-color: #E6E0D4;
+}
+
+header {
+    background: #FFF3E6;
+    padding: 20px 0;
+}
+
+
+.hero{
+    position: relative;
+    height: 350px;
+    overflow: hidden;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.hero img {
+   
+    width: 100%;
+    height: auto;
+    position: relative;
+    object-fit: cover;
+  
+    
+  
+ 
+}
+
+.hero-text{
+    position:absolute ;
+    color: red;
+   text-align: center;
+ 
+   
+
+}
+
+
+.sobre-mi, .proyectos, .contacto {
+    padding: 40px 0;
+}
+
+footer {
+    background: #735646;
+    color: #FFF;
+    text-align: center;
+    padding: 20px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#success-message {
+    margin-top: 20px;
+    color: green;
+}
+
+
+
+
+h1 {
+    font-weight: 700; /* Bold */
+}
+
+h2 {
+    font-weight: 600; /* Semibold */
+}
+
+h3 {
+    font-weight: 400; /* Medium */
+}
+
+.small-text {
+    font-weight: 300; /* Light */
+}
+
